@@ -24,7 +24,7 @@ class AppCubit extends Cubit<AppStates>
   List<String> titles =
   [
     'New Tasks',
-    'Done Tasks',
+    'Completed Tasks',
     'Archived Tasks'
   ];
   late Database database;
